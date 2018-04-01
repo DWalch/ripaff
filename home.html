@@ -15,10 +15,14 @@
 <body>
   <div id="title">AFFLICTION 2004-2018<br>NO KING RULES FOREVER</div>
   <iframe width="560" height="315" src="https://www.youtube.com/embed/V0aJ9GUuOr4?&autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="margin-left: 35%"></iframe>
-  <audio autoplay loop>
+  <audio id="song" autoplay loop>
     <source src="sarahAngels.mp3" type="audio/mpeg">
       <source src="sarahAngels.ogg" type="audio/ogg">
       your browser does not support audio tag
     </audio>
+	<script>
+	var audio = document.getElementById("song");
+	song.volume = 0.05;
+	</script>
 </body>
 </html>
